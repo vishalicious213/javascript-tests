@@ -22,4 +22,8 @@ form.addEventListener('submit', e => {
     input.value = ''
 
     // 4. setup event listener to delete item when clicked
+    item.addEventListener('click', () => {
+        list.removeChild(item)
+        // item.remove() // could also use this to remove the item
+    })
 })
