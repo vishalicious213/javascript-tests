@@ -16,6 +16,8 @@ form.addEventListener('submit', e => {
     console.log(item) // confirm the contents of the div
 
     // 2. add item to the list
+    list.appendChild(item)
+
     // 3. clear input to prep for new item
     // 4. setup event listener to delete item when clicked
 })
