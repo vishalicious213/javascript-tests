@@ -13,7 +13,7 @@ form.addEventListener('submit', e => {
     const item = document.createElement('div') // create a div
     item.innerText = input.value // set its text to what was typed
     item.classList.add('list-item') // add the list-item class
-    console.log(item) // confirm the contents of the div
+    // console.log(item) // confirm the contents of the div
 
     // 2. add item to the list
     list.appendChild(item)
