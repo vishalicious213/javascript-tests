@@ -18,6 +18,8 @@ form.addEventListener('submit', e => {
     // 2. add item to the list
     list.appendChild(item)
 
-    // 3. clear input to prep for new item
+    // 3. clear input after click to prep for new item
+    input.value = ''
+
     // 4. setup event listener to delete item when clicked
 })
