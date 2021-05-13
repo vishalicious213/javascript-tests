@@ -10,6 +10,11 @@ form.addEventListener('submit', e => {
     // console.log(input.value)
 
     // 1. create a new item
+    const item = document.createElement('div') // create a div
+    item.innerText = input.value // set its text to what was typed
+    item.classList.add('list-item') // add the list-item class
+    console.log(item) // confirm the contents of the div
+
     // 2. add item to the list
     // 3. clear input to prep for new item
     // 4. setup event listener to delete item when clicked
