@@ -15,6 +15,7 @@ const overlay = document.querySelector('#overlay')
 // BONUS: Also add the class "open" to the overlay
 openBtn.addEventListener('click', () => {
   openBtn.classList.add('open')
+  overlay.classList.add('open')
   console.log('open')
 })
 
